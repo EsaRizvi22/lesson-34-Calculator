@@ -1,0 +1,22 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: greenyellow;
+}
+#container{
+    width: 1000px;
+    height: 550px;
+    margin: 20px auto;
+    background-image: url(download.jpg);
+}
+#calculator{
+    width:320px;
+    height: 520px;
+    margin:0px;
+    top:20px;
+    position:relative;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px gainsboro;
+}
+#keyboard{
+    height: 400px;
+}
