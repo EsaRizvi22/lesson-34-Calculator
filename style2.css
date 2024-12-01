@@ -19,4 +19,68 @@ body{
 }
 #keyboard{
     height: 400px;
+    background-color: antiquewhite;
 }
+#result{
+    height: 120px;
+}
+#history{
+    height: 20px;
+    text-align: right;
+    margin: 20px;
+    padding-top: 20px;
+    font-size: 15px;
+    background-color: antiquewhite;
+}
+#output{
+    height: 60px;
+    text-align: right;
+    margin: 10px 20px;
+    font-size: 20px;
+    background-color: antiquewhite;
+}
+.operator,.number,.empty{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-width: 0;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+}
+.empty{
+    background-color: antiquewhite;
+}
+button:nth-child(4){
+    background-color: chartreuse;
+}
+button:nth-child(8){
+    background-color: brown;
+    color: azure;
+}
+button:nth-child(12){
+    background-color: chocolate;
+    color: azure;
+    font-size: 40px;
+}
+button:nth-child(16){
+    background-color: lightcoral;
+}
+button:nth-child(20) {
+    background-color: yellowgreen;
+}
+.operator:hover{
+    font-size: 50px;
+    color:darkred;
+}
+.number:hover{
+    font-size: 40px;
+    color: darkblue;
+}
+.number{
+background-color: antiquewhite;
+}
+.operator{
+    background-color: antiquewhite;
+}
+
